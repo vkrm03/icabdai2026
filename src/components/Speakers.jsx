@@ -23,7 +23,7 @@ import imgMasilamani from "../assets/9.png";
 // ─── Data Map ─────────────────────────────────────────────────────────────────
 const SPEAKERS = [
   { name: "Prof. P. Sundaresan",        role: "ICMR Emeritus Scientist",                 institution: "Aravind Medical Research Foundation",    location: "Madurai, India",        flag: "🇮🇳", image: imgsundreson, isKeynote: true },
-  { name: "Prof. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko, isKeynote: true },
+  { name: "Prof. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko},
   { name: "Dr. Helen Goodridge",          role: "Associate Director, Regen. Medicine",        institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgHelen },
   { name: "Dr. Betty Gimenez",            role: "Ecology, Palynology & AI",                  institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgBetty },
   { name: "Dr. Deisy Contreras",          role: "Asst. Director, Clinical Microbiology",     institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgDeisy },
@@ -44,24 +44,24 @@ const SPEAKERS = [
 
 // ─── Bubble layout ─────────────────────────────────────────────────────────────
 const BUBBLES = [
-  { x: "2%",   y: "0%",   size: 145, delay: 0.0, amp: 5 },
-  { x: "22%",  y: "3%",   size: 150, delay: 1.2, amp: 5 },
-  { x: "42%",  y: "-1%",  size: 120, delay: 0.5, amp: 7 },
-  { x: "62%",  y: "4%",   size: 120, delay: 1.8, amp: 4 },
-  { x: "82%",  y: "0%",   size: 115, delay: 0.8, amp: 6 },
-  { x: "11%",  y: "28%",  size: 120, delay: 2.0, amp: 5 },
-  { x: "31%",  y: "32%",  size: 110, delay: 0.3, amp: 7 },
-  { x: "51%",  y: "28%",  size: 115, delay: 1.5, amp: 5 },
-  { x: "71%",  y: "25%",  size: 125, delay: 0.7, amp: 6 },
-  { x: "1%",   y: "50%",  size: 115, delay: 1.1, amp: 5 },
-  { x: "21%",  y: "54%",  size: 105, delay: 0.4, amp: 6 },
-  { x: "41%",  y: "49%",  size: 120, delay: 1.7, amp: 5 },
-  { x: "61%",  y: "52%",  size: 110, delay: 0.9, amp: 7 },
-  { x: "81%",  y: "48%",  size: 115, delay: 2.2, amp: 4 },
-  { x: "9%",   y: "76%",  size: 105, delay: 0.6, amp: 6 },
-  { x: "29%",  y: "73%",  size: 115, delay: 1.4, amp: 5 },
-  { x: "49%",  y: "77%",  size: 100, delay: 0.2, amp: 7 },
-  { x: "69%",  y: "74%",  size: 120, delay: 1.9, amp: 5 },
+  { x: "40%",   y: "0%",   size: 180, delay: 0.0, amp: 5 },
+  { x: "0%",  y: "13%",   size: 130, delay: 1.2, amp: 5 },
+  { x: "20%",  y: "10%",  size: 120, delay: 0.5, amp: 7 },
+  { x: "65%",  y: "14%",   size: 120, delay: 1.8, amp: 4 },
+  { x: "83%",  y: "10%",   size: 115, delay: 0.8, amp: 6 },
+  { x: "11%",  y: "38%",  size: 120, delay: 2.0, amp: 5 },
+  { x: "31%",  y: "37%",  size: 110, delay: 0.3, amp: 7 },
+  { x: "51%",  y: "38%",  size: 115, delay: 1.5, amp: 5 },
+  { x: "71%",  y: "37%",  size: 120, delay: 0.7, amp: 6 },
+  { x: "1%",   y: "60%",  size: 115, delay: 1.1, amp: 5 },
+  { x: "21%",  y: "64%",  size: 105, delay: 0.4, amp: 6 },
+  { x: "41%",  y: "60%",  size: 120, delay: 1.7, amp: 5 },
+  { x: "61%",  y: "62%",  size: 110, delay: 0.9, amp: 7 },
+  { x: "81%",  y: "58%",  size: 115, delay: 2.2, amp: 4 },
+  { x: "9%",   y: "86%",  size: 105, delay: 0.6, amp: 6 },
+  { x: "29%",  y: "83%",  size: 115, delay: 1.4, amp: 5 },
+  { x: "49%",  y: "87%",  size: 100, delay: 0.2, amp: 7 },
+  { x: "69%",  y: "84%",  size: 120, delay: 1.9, amp: 5 },
 ];
 
 const RING_PALETTE = [
