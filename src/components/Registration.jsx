@@ -131,7 +131,7 @@ export default function Registration() {
             </div>
 
             <a
-              href="#"
+              href="https://forms.gle/1J85yjLgUpsK4XpB7"
               className="relative z-10 mt-10 inline-flex w-full items-center justify-center rounded-xl px-6 py-4 text-center font-semibold text-sm transition-all duration-300 hover:-translate-y-1"
               style={{
                 background: "linear-gradient(135deg, #C9A96E 0%, #B87D5A 100%)",
