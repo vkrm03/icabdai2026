@@ -8,6 +8,8 @@ import imgJackson from "../assets/Jackson_Durairaj_img.jpg";
 import imgBeryl from "../assets/Beryl-Vedha.jpg";
 import imgNandagopal from "../assets/Nandha.jpg";
 import imgJoyitaHazra from "../assets/JoyitaHazra.jpg";
+import imgSaravanankumar from "../assets/Saravanakumar.jpg";
+import imgJenifLeo from "../assets/Jenif-leo.jpg";
 import imgJohnsonRetnaraj from "../assets/johnson-retnaraj-samuel_img.jpg"; 
 import imgKamachi from "../assets/kamachi_mam_img.jpg";
 import imgLakshmanan from "../assets/L.LAKSHMANAN_img.jpg";
@@ -42,8 +44,8 @@ const conveners = [
 ];
 
 const organizingCommittee = [
-  { name: "Mr. V. Saravanakumar, Scientific Assistant", photo: "" },
-  { name: "Mr. Jenif Leo, Scientific Assistant", photo: "" },
+  { name: "Mr. V. Saravanakumar, Scientific Assistant", photo: imgSaravanankumar },
+  { name: "Mr. Jenif Leo, Scientific Assistant", photo: imgJenifLeo },
   { name: "Mr. Mohamed Juvad, IRF", photo: "" },
   { name: "Ms. V. Reethu, IRF", photo: "" },
   { name: "Mr. Vivek S, IV Year, IT", photo: "" },
