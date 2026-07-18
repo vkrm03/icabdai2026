@@ -34,11 +34,11 @@ const MILESTONES = [
 ];
 
 // ─── Layout ───────────────────────────────────────────────────────────────────
-const ROAD_H      = 20; // Normalized straight horizontal progress bar height
-const CONNECTOR_H = 44;
+const ROAD_H      = 14; // Normalized straight horizontal progress bar height
+const CONNECTOR_H = 60;
 const CARD_H       = 250;
 const ALT_LIFT     = 52; // Alternating grid layer gap to avoid overlapping card cutoffs
-const TOTAL_H      = CARD_H + ALT_LIFT + CONNECTOR_H + ROAD_H + 24;
+const TOTAL_H      = CARD_H + ALT_LIFT + CONNECTOR_H + ROAD_H + 80;
 
 // ─── Lace palette for statuses ────────────────────────────────────────────────
 const S = {
@@ -94,7 +94,9 @@ function calcProgress(ss) {
   return (i / (MILESTONES.length - 1)) * 100;
 }
 const daysUntil = (d) => Math.max(0, Math.ceil((d - new Date()) / 86_400_000));
-const xPct      = (i) => (i / (MILESTONES.length - 1)) * 100;
+const START = 8;
+const END = 92;
+const xPct = (i) => START + ((END - START) * i) / (MILESTONES.length - 1);
 
 // ─── MilestoneCard ────────────────────────────────────────────────────────────
 function MilestoneCard({ m }) {
@@ -104,12 +106,13 @@ function MilestoneCard({ m }) {
 
   return (
     <div
-      className="relative w-[220px] rounded-xl p-3 border backdrop-blur-md cursor-default flex flex-col justify-between"
+      className="relative w-[240px] rounded-xl p-3 border backdrop-blur-md cursor-default flex flex-col justify-between transition-all duration-300 hover:-translate-y-3 hover:scale-[1.03] hover:shadow-2xl"
       style={{
         height: `${CARD_H}px`,
         background: cfg.cardBg,
         borderColor: cfg.border,
         boxShadow: `0 10px 28px ${cfg.shadow}, 0 0 0 1px ${cfg.border}`,
+        transform: m.status === "current" ? "scale(1.05)" : "scale(1)",
       }}
     >
       {/* Background overlay on active status */}
@@ -419,7 +422,7 @@ export default function ImportantDates() {
                   className="absolute flex flex-col items-center"
                   style={{
                     left: `${xPct(i)}%`,
-                    bottom: `${ROAD_H + CONNECTOR_H + altLift}px`,
+                    bottom: `${ROAD_H + CONNECTOR_H + altLift + 30}px`,
                     transform: "translateX(-50%)",
                   }}
                 >

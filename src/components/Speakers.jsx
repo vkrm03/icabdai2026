@@ -19,6 +19,7 @@ import imgSwapnil from "../assets/6.png";
 import imgSudhakar from "../assets/7.png";
 import imgSabitha from "../assets/8.png";
 import imgMasilamani from "../assets/9.png";
+import imgSeppo from "../assets/18.jpg";
 
 // ─── Data Map ─────────────────────────────────────────────────────────────────
 const SPEAKERS = [
@@ -26,6 +27,7 @@ const SPEAKERS = [
   { name: "Prof. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko},
   { name: "Dr. Helen Goodridge",          role: "Associate Director, Regen. Medicine",        institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgHelen },
   { name: "Dr. Betty Gimenez",            role: "Ecology, Palynology & AI",                  institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgBetty },
+  { name: "Prof. Seppo Vainio",            role: "Developmental Biology Researcher",                  institution: "Oulu University",        location: "Oulu, Finland",    flag: "🇫🇮", image: imgSeppo },
   { name: "Dr. Deisy Contreras",          role: "Asst. Director, Clinical Microbiology",     institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgDeisy },
   { name: "Dr. Julien",                   role: "Organic Farming & Information Technology",   institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgJulien },
   { name: "Dr. Niranjan Ramakrishnan",    role: "Chief Executive Officer",                    institution: "MyLabConnect",                           location: "West Palm Beach, USA", flag: "🇺🇸", image: imgNiranjan},
