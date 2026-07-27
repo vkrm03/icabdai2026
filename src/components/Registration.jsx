@@ -6,6 +6,11 @@ const rows = [
   { category: "Foreign Students", early: "USD 200", late: "—" },
 ];
 
+const publishers = [
+  "Elsevier",
+  "Springer Nature",
+  "Wiley",
+];
 export default function Registration() {
   return (
     <section
@@ -14,7 +19,6 @@ export default function Registration() {
       style={{ background: "#060d22" }}
     >
       <div className="relative mx-auto max-w-7xl">
-        {/* Section Heading */}
         <div className="mb-16">
           <p
             className="inline-flex items-center gap-3 mb-4 text-xs font-bold uppercase tracking-[0.22em]"
@@ -23,11 +27,12 @@ export default function Registration() {
             <span className="h-px w-8" style={{ background: "#C9A96E" }} />
             Join Us
           </p>
+
           <h2
             className="font-bold leading-tight"
             style={{
               fontFamily: "'Cormorant Garamond', serif",
-              fontSize: "clamp(2.2rem, 5vw, 3.6rem)",
+              fontSize: "clamp(2.2rem,5vw,3.6rem)",
               color: "#F4EEE4",
             }}
           >
@@ -35,7 +40,7 @@ export default function Registration() {
             <span
               style={{
                 fontStyle: "italic",
-                background: "linear-gradient(135deg, #C9A96E, #F0DFB8)",
+                background: "linear-gradient(135deg,#C9A96E,#F0DFB8)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -44,14 +49,14 @@ export default function Registration() {
               Fees
             </span>
           </h2>
+
           <div
             className="mt-4 h-px w-16"
-            style={{ background: "linear-gradient(90deg, #C9A96E, transparent)" }}
+            style={{ background: "linear-gradient(90deg,#C9A96E,transparent)" }}
           />
         </div>
 
         <div className="grid gap-10 lg:grid-cols-[2fr_1fr]">
-          {/* Registration Table */}
           <div
             className="overflow-hidden rounded-3xl border backdrop-blur-md shadow-2xl"
             style={{
@@ -62,82 +67,83 @@ export default function Registration() {
             <table className="min-w-full border-collapse">
               <thead>
                 <tr style={{ background: "rgba(201,169,110,0.12)" }}>
-                  <th className="px-8 py-6 text-left text-xs font-bold uppercase tracking-wider" style={{ color: "#C9A96E", fontFamily: "'Inter', sans-serif" }}>
-                    Category
-                  </th>
-                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color: "#C9A96E", fontFamily: "'Inter', sans-serif" }}>
-                    Before 15 Sep 2026
-                  </th>
-                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color: "#C9A96E", fontFamily: "'Inter', sans-serif" }}>
-                    After 15 Sep 2026
-                  </th>
+                  <th className="px-8 py-6 text-left text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>Category</th>
+                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>Before 15 Sep 2026</th>
+                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>After 15 Sep 2026</th>
                 </tr>
               </thead>
-
               <tbody>
-                {rows.map((row, index) => (
-                  <tr
-                    key={row.category}
-                    className="transition duration-300"
-                    style={{
-                      borderBottom: index !== rows.length - 1 ? "1px solid rgba(201,169,110,0.10)" : "none",
-                    }}
-                  >
-                    <td className="px-8 py-6 font-semibold" style={{ color: "#F4EEE4", fontFamily: "'Inter', sans-serif" }}>
-                      {row.category}
-                    </td>
-                    <td className="px-8 py-6 text-center font-medium" style={{ color: "#A89880", fontFamily: "'DM Mono', monospace" }}>
-                      {row.early}
-                    </td>
-                    <td className="px-8 py-6 text-center font-medium" style={{ color: "#7A8399", fontFamily: "'DM Mono', monospace" }}>
-                      {row.late}
-                    </td>
+                {rows.map((row,index)=>(
+                  <tr key={row.category} style={{borderBottom:index!==rows.length-1?"1px solid rgba(201,169,110,0.10)":"none"}}>
+                    <td className="px-8 py-6 font-semibold" style={{color:"#F4EEE4"}}>{row.category}</td>
+                    <td className="px-8 py-6 text-center" style={{color:"#A89880"}}>{row.early}</td>
+                    <td className="px-8 py-6 text-center" style={{color:"#7A8399"}}>{row.late}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          {/* Information Card */}
           <div
-            className="flex flex-col justify-between rounded-3xl border p-10 shadow-2xl relative overflow-hidden"
+            className="rounded-3xl border p-10 shadow-2xl"
             style={{
-              background: "linear-gradient(145deg, rgba(15,32,64,0.7) 0%, rgba(9,24,41,0.8) 100%)",
-              borderColor: "rgba(201,169,110,0.25)",
+              background:"linear-gradient(145deg, rgba(15,32,64,0.7), rgba(9,24,41,0.85))",
+              borderColor:"rgba(201,169,110,0.25)",
             }}
           >
-            <div className="absolute top-0 right-0 w-32 h-32 pointer-events-none opacity-20" style={{ background: "radial-gradient(circle at 100% 0, rgba(201,169,110,0.5), transparent 70%)" }} />
+            <h3
+              className="mb-6 text-3xl font-bold"
+              style={{
+                color:"#F0DFB8",
+                fontFamily:"'Cormorant Garamond', serif",
+              }}
+            >
+              Publication Opportunity
+            </h3>
 
-            <div className="relative z-10">
-              <h3
-                className="mb-6 text-3xl font-bold"
-                style={{ color: "#F0DFB8", fontFamily: "'Cormorant Garamond', serif" }}
-              >
-                Submission Info
-              </h3>
+            <p className="mb-5 leading-relaxed text-[15px]" style={{color:"#A89880"}}>
+              Submit your abstract on or before <strong style={{color:"#F4EEE4"}}>30 July 2026</strong>.
+              Accepted authors will receive notification and instructions for full paper submission.
+            </p>
 
-              <p className="leading-relaxed text-[15px] mb-6 font-medium" style={{ color: "#A89880", fontFamily: "'Inter', sans-serif" }}>
-                Submit your abstract through the online submission portal on or
-                before <strong style={{ color: "#F4EEE4", fontWeight: 700 }}>30 July 2026</strong>.
-                Accepted authors will receive an email notification followed by
-                instructions for full manuscript submission.
-              </p>
+            <p
+  className="mb-6 leading-relaxed text-[15px]"
+  style={{ color: "#A89880", lineHeight: "1.9" }}
+>
+  Selected high-quality papers will be considered for publication in
+  internationally reputed journals published by
+  <span
+    style={{
+      color: "#F0DFB8",
+      fontWeight: 700,
+    }}
+  >
+    {" "}
+    Elsevier, Springer Nature & Wiley
+  </span>
+  . All manuscripts will undergo a rigorous peer-review process and will
+  be recommended for publication in
+  <span
+    style={{
+      color: "#F4EEE4",
+      fontWeight: 700,
+    }}
+  >
+    {" "}
+    Scopus-indexed journals
+  </span>
+  , subject to the editorial policies and final acceptance of the
+  respective journals.
+</p>
 
-              <p className="leading-relaxed text-[15px] font-medium" style={{ color: "#7A8399", fontFamily: "'Inter', sans-serif" }}>
-                Selected peer-reviewed papers will be considered for publication
-                in indexed journals based on originality, technical quality, and
-                relevance to the conference themes.
-              </p>
-            </div>
 
             <a
               href="https://forms.gle/1J85yjLgUpsK4XpB7"
-              className="relative z-10 mt-10 inline-flex w-full items-center justify-center rounded-xl px-6 py-4 text-center font-semibold text-sm transition-all duration-300 hover:-translate-y-1"
+              className="inline-flex w-full items-center justify-center rounded-xl px-6 py-4 font-semibold transition-all duration-300 hover:-translate-y-1"
               style={{
-                background: "linear-gradient(135deg, #C9A96E 0%, #B87D5A 100%)",
-                color: "#060d22",
-                boxShadow: "0 8px 25px rgba(201,169,110,0.25)",
-                fontFamily: "'Inter', sans-serif",
+                background:"linear-gradient(135deg,#C9A96E,#B87D5A)",
+                color:"#060d22",
+                boxShadow:"0 8px 25px rgba(201,169,110,.25)",
               }}
             >
               Open Abstract Submission Form
