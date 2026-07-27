@@ -35,17 +35,13 @@ const conveners = [
   { name: "Dr. Kamatchi KS, Associate Professor, IT", photo: imgKamachi },
   { name: "Dr. A. Sathiyaraj, Associate Professor, IT", photo: imgSathiyaraj },
   { name: "Dr. C. Geetha, Associate Professor, IT", photo: imgGeetha },
-  { name: "Dr. A. Dayanandan, Professor, CMNS", photo: imgDayanandan },
   { name: "Dr. S. Jackson Durairaj, Associate Professor, CMNS", photo: imgJackson },
   { name: "Dr. A. Madan Kumar, Associate Professor, CMNS", photo: imgMadankumar },
   { name: "Dr. Y. Beryl Vedha, Assistant Professor, CMNS", photo: imgBeryl },
-  { name: "Dr. Nandagopal, Assistant Professor, CMNS", photo: imgNandagopal },
-  { name: "Dr. Joyita Hazra, Assistant Professor, CMNS", photo: imgJoyitaHazra },
 ];
 
 const organizingCommittee = [
-  { name: "Mr. V. Saravanakumar, Scientific Assistant", photo: imgSaravanankumar },
-  { name: "Mr. Jenif Leo, Scientific Assistant", photo: imgJenifLeo },
+  { name: "Mr. Jenif Leo, Scientific Assistant", photo: "" },
   { name: "Mr. Mohamed Juvad, IRF", photo: "" },
   { name: "Ms. V. Reethu, IRF", photo: "" },
   { name: "Mr. Vivek S, IV Year, IT", photo: "" },

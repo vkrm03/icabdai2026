@@ -25,7 +25,6 @@ import imgSeppo from "../assets/18.jpg";
 const SPEAKERS = [
   { name: "Prof. P. Sundaresan",        role: "ICMR Emeritus Scientist",                 institution: "Aravind Medical Research Foundation",    location: "Madurai, India",        flag: "🇮🇳", image: imgsundreson, isKeynote: true },
   { name: "Prof. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko},
-  { name: "Dr. Helen Goodridge",          role: "Associate Director, Regen. Medicine",        institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgHelen },
   { name: "Dr. Betty Gimenez",            role: "Ecology, Palynology & AI",                  institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgBetty },
   { name: "Prof. Seppo Vainio",            role: "Developmental Biology Researcher",                  institution: "Oulu University",        location: "Oulu, Finland",    flag: "🇫🇮", image: imgSeppo },
   { name: "Dr. Deisy Contreras",          role: "Asst. Director, Clinical Microbiology",     institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgDeisy },
