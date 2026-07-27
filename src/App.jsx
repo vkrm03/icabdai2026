@@ -7,6 +7,7 @@ import Speakers from './components/Speakers';
 import Committee from './components/Committee';
 import Registration from './components/Registration';
 import Venue from './components/Venue';
+import Sponsors from './components/Sponser';
 import Footer from './components/Footer';
 import Themes from './components/Themes';
 
@@ -19,6 +20,7 @@ export default function App() {
       <Themes/>
       <ImportantDates />
       <Speakers />
+      <Sponsors />
       <Committee />
       <Registration />
       <Venue />
