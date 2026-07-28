@@ -3,6 +3,8 @@ import S2 from "../assets/sponsers/S2.png";
 import S3 from "../assets/sponsers/S3.png";
 import S4 from "../assets/sponsers/S4.png";
 import S5 from "../assets/sponsers/S5.png";
+import S6 from "../assets/sponsers/S6.png";
+import S7 from "../assets/sponsers/S7.png";
 
 const sponsors = [
   S1,
@@ -10,6 +12,8 @@ const sponsors = [
   S3,
   S4,
   S5,
+  S6,
+  S7
 ];
 
 export default function Sponsors() {
