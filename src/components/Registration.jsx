@@ -82,6 +82,18 @@ export default function Registration() {
                 ))}
               </tbody>
             </table>
+           <p
+  className="mb-8 px-8 py-3 text-sm font-medium"
+  style={{
+    color: "#F0DFB8",
+  }}
+>
+  
+  <span style={{ color: "red", fontWeight: "bold" }}> <strong>Note:</strong> Publication charges, if applicable, are
+  <strong> additional</strong> and are <strong>not included</strong> in the
+  conference registration fee. These charges must be paid separately by the
+  authors according to the policies of the respective journal or publisher.</span>
+</p>
           </div>
 
           <div
