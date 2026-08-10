@@ -1,15 +1,21 @@
 import React from 'react';
 
 const themes = [
-  { title: 'Biosciences and Biotechnology', tag: 'BIO' },
-  { title: 'Bioinformatics and Computational Biology', tag: 'BCB' },
-  { title: 'Data Science and Big Data Analytics', tag: 'DSA' },
-  { title: 'Cybersecurity and Privacy in Healthcare Data', tag: 'SEC' },
-  { title: 'Emerging Technologies in Biosciences, Data Science and AI', tag: 'EMG' },
-  { title: 'Intelligent Healthcare Systems', tag: 'IHS' },
-  { title: 'Nanobiotechnology', tag: 'NBT' },
-  { title: 'Intelligent Systems and Automation', tag: 'ISA' },
+  { title: 'Biosciences & Biotechnology Fundamentals', tag: 'BBF' },
+  { title: 'Nano Biotechnology', tag: 'NBT' },
+  { title: 'Genomics & Precision Medicine', tag: 'GPM' },
+  { title: 'Synthetic Biology & Bioengineering', tag: 'SBB' },
+  { title: 'Environmental & Agricultural Biosciences', tag: 'EAB' },
+  { title: 'Bioinformatics & Computational Biology', tag: 'BCB' },
+  { title: 'Data Science & Big Data Analytics', tag: 'DSA' },
+  { title: 'Cybersecurity & Privacy in Healthcare Data', tag: 'SEC' },
+  { title: 'Data Visualization & Scientific Storytelling', tag: 'DVS' },
+  { title: 'Data-Driven Decision Systems in Research & Healthcare', tag: 'DDS' },
   { title: 'Artificial Intelligence in Biotechnology', tag: 'AIB' },
+  { title: 'Intelligent Healthcare Systems', tag: 'IHS' },
+  { title: 'Intelligent Systems & Automation', tag: 'ISA' },
+  { title: 'Emerging Technologies in Biosciences, Data Science & AI', tag: 'EMG' },
+  { title: 'Generative AI & Large Language Models', tag: 'GAI' },
 ];
 
 export default function Themes() {

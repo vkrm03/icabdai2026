@@ -123,7 +123,7 @@ export default function Venue() {
         >
           <iframe
             title="Sathyabama Institute of Science and Technology"
-            src="https://www.google.com/maps?q=Sathyabama+Institute+of+Science+and+Technology,+Chennai&output=embed"
+            src="https://www.google.com/maps?cid=17258989699588833518&hl=en&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full h-full grayscale opacity-90 contrast-125 transition-all duration-700 hover:grayscale-0 hover:opacity-100 hover:contrast-100"
