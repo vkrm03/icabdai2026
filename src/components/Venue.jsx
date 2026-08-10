@@ -85,7 +85,7 @@ export default function Venue() {
                 </div>
                 <div>
                   <p className="text-[10px] uppercase tracking-widest font-bold mb-1" style={{ color: "#7A8399" }}>Email</p>
-                  <a href="mailto:icabdai26@gmail.com" className="text-sm font-medium transition hover:text-white" style={{ color: "#F4EEE4" }}>icabdai26@gmail.com</a>
+                  <a href="mailto:icabdai26@gmail.com" className="text-sm font-medium transition hover:text-white" style={{ color: "#F4EEE4" }}>icabdai2026@gmail.com</a>
                 </div>
               </div>
 

@@ -116,7 +116,7 @@ export default function Hero() {
           {[
             { label: "Conference Dates", value: "16 – 18 November 2026" },
             { label: "Venue",            value: "Chennai, Tamil Nadu, India" },
-            { label: "Abstract Deadline", value: "30 July 2026" },
+            { label: "Abstract Deadline", value: "20 August 2026" },
           ].map((item, i) => (
             <div
               key={item.label}
