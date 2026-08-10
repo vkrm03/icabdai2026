@@ -89,7 +89,7 @@ export default function Registration() {
   }}
 >
   
-  <span style={{ color: "red", fontWeight: "bold" }}> <strong>Note:</strong> Publication charges, if applicable, are
+  <span style={{ color: "#F0DFB8", fontWeight: "bold" }}> <strong>Note:</strong> Publication charges, if applicable, are
   <strong> additional</strong> and are <strong>not included</strong> in the
   conference registration fee. These charges must be paid separately by the
   authors according to the policies of the respective journal or publisher.</span>
@@ -163,6 +163,30 @@ export default function Registration() {
           </div>
         </div>
       </div>
+      {/* Microsoft CMT Acknowledgment */}
+        <div className="mx-auto mt-20 max-w-7xl">
+          <div
+            className="rounded-2xl border px-6 py-6 md:px-10"
+            style={{
+              background:
+                "linear-gradient(145deg, rgba(15,32,64,0.5), rgba(9,24,41,0.7))",
+              borderColor: "rgba(201,169,110,0.15)",
+            }}
+          >
+            <p
+              className="text-sm md:text-base leading-7"
+              style={{
+                color: "#C8C9D0",
+                fontFamily: "'Inter', sans-serif",
+              }}
+            >
+              The Microsoft CMT service was used for managing the peer-reviewing
+              process for this conference. This service was provided for free
+              by Microsoft and they bore all expenses, including costs for Azure
+              cloud services as well as for software development and support.
+            </p>
+          </div>
+        </div>
     </section>
   );
 }

@@ -7,28 +7,38 @@ import {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const MILESTONES = [
   {
-    date: new Date("2026-07-30"), display: "30 Jul 2026",
-    title: "Abstract Submission", subtitle: "Submit your research abstract",
+    date: new Date("2026-08-20"),
+    display: "20 Aug 2026",
+    title: "Abstract Submission",
+    subtitle: "Submit your research abstract",
     icon: FileText,
   },
   {
-    date: new Date("2026-08-15"), display: "15 Aug 2026",
-    title: "Acceptance Notification", subtitle: "Authors notified of review decisions",
+    date: new Date("2026-09-15"),
+    display: "15 Sep 2026",
+    title: "Acceptance Notification",
+    subtitle: "Authors notified of review decisions",
     icon: Bell,
   },
   {
-    date: new Date("2026-09-15"), display: "15 Sep 2026",
-    title: "Early Bird Registration", subtitle: "Discounted registration window closes",
+    date: new Date("2026-09-20"),
+    display: "20 Sep 2026",
+    title: "Early Bird Registration",
+    subtitle: "Discounted registration window closes",
     icon: Award,
   },
   {
-    date: new Date("2026-09-30"), display: "30 Sep 2026",
-    title: "Registration Deadline", subtitle: "Final date for all registrations",
+    date: new Date("2026-10-15"),
+    display: "15 Oct 2026",
+    title: "Registration Deadline",
+    subtitle: "Final date for all registrations",
     icon: Clock,
   },
   {
-    date: new Date("2026-11-16"), display: "16–18 Nov 2026",
-    title: "Conference", subtitle: "ICABDAI 2026 · Chennai, India",
+    date: new Date("2026-11-16"),
+    display: "16–18 Nov 2026",
+    title: "Conference",
+    subtitle: "ICABDAI 2026 · Chennai, India",
     icon: Presentation,
   },
 ];

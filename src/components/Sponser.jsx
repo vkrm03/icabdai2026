@@ -13,7 +13,7 @@ const sponsors = [
   S4,
   S5,
   S6,
-  S7
+  S7,
 ];
 
 export default function Sponsors() {
@@ -24,8 +24,9 @@ export default function Sponsors() {
       style={{ background: "#060d22" }}
     >
       <div className="mx-auto max-w-7xl">
+
         {/* Heading */}
-        <div className="text-center mb-16">
+        <div className="mb-16 text-center">
           <p
             className="inline-flex items-center gap-3 mb-4 text-xs font-bold uppercase tracking-[0.22em]"
             style={{
@@ -98,6 +99,8 @@ export default function Sponsors() {
             </div>
           ))}
         </div>
+        
+
       </div>
     </section>
   );
