@@ -24,13 +24,13 @@ import imgSeppo from "../assets/18.jpg";
 // ─── Data Map ─────────────────────────────────────────────────────────────────
 const SPEAKERS = [
   { name: "Prof. P. Sundaresan",        role: "ICMR Emeritus Scientist",                 institution: "Aravind Medical Research Foundation",    location: "Madurai, India",        flag: "🇮🇳", image: imgsundreson, isKeynote: true },
-  { name: "Prof. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko},
+  { name: "Dr. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko},
   { name: "Dr. Betty Gimenez",            role: "Ecology, Palynology & AI",                  institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgBetty },
   { name: "Prof. Seppo Vainio",            role: "Developmental Biology Researcher",                  institution: "Oulu University",        location: "Oulu, Finland",    flag: "🇫🇮", image: imgSeppo },
   { name: "Dr. Deisy Contreras",          role: "Asst. Director, Clinical Microbiology",     institution: "Cedars-Sinai",                           location: "Los Angeles, USA",      flag: "🇺🇸", image: imgDeisy },
   { name: "Dr. Julien",                   role: "Organic Farming & Information Technology",   institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgJulien },
   { name: "Dr. Niranjan Ramakrishnan",    role: "Chief Executive Officer",                    institution: "MyLabConnect",                           location: "West Palm Beach, USA", flag: "🇺🇸", image: imgNiranjan},
-  { name: "Dr. David Chaim Rubinsztein", role: "Deputy Director",                            institution: "Cambridge Institute for Medical Research", location: "Cambridge, UK",      flag: "🇬🇧", image: imgDavid },
+  { name: "Prof. David Chaim Rubinsztein", role: "Deputy Director",                            institution: "Cambridge Institute for Medical Research", location: "Cambridge, UK",      flag: "🇬🇧", image: imgDavid },
   { name: "Dr. Ashok Iyaswamy",          role: "Research Assistant Professor",               institution: "Hong Kong Baptist University",           location: "Hong Kong",            flag: "🇭🇰", image: imgAshok },
   { name: "Dr. J. Joshua Thomas",         role: "Professor, Department of Computing",         institution: "UOW Malaysia KDU Penang University",     location: "Malaysia",               flag: "🇲🇾", image: imgJoshua },
   { name: "Dr. Joseph Ignatius Irudayam", role: "Associate Biomedical Scientist",             institution: "Cedars-Sinai Medical Centre",            location: "Los Angeles, USA",      flag: "🇺🇸", image: imgJoseph },
