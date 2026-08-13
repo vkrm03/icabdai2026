@@ -117,14 +117,24 @@ function PersonCard({ person, size = 56, featured = false, compact = false }) {
       }
     >
       <Avatar person={person} size={size} ring={featured} />
-      <span
-        className={`mt-4 leading-snug ${
-          featured ? "text-[17px] font-bold" : compact ? "text-[12px] font-semibold" : "text-[13px] font-semibold"
-        }`}
-        style={{ color: "#F0DFB8", fontFamily: "'Inter', sans-serif" }}
-      >
-        {person.name}
-      </span>
+      <div
+  className={`mt-4 leading-snug ${
+    featured
+      ? "text-[17px]"
+      : compact
+      ? "text-[12px]"
+      : "text-[13px]"
+  }`}
+  style={{ color: "#F0DFB8", fontFamily: "'Inter', sans-serif" }}
+>
+  <div className="font-bold">
+    {person.name.split(",")[0]}
+  </div>
+
+  <div className="mt-0.5 font-semibold">
+    {person.name.split(",").slice(1).join(",").trim()}
+  </div>
+</div>
     </div>
   );
 }
