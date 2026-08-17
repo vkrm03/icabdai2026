@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Menu, X, Microscope } from "lucide-react";
+import logo from "../assets/logo.jpeg";
 
 const NAV_LINKS = [
   { label: "Home",         href: "#home"         },
@@ -72,7 +73,7 @@ export default function Navbar() {
                   borderColor: "rgba(201,169,110,0.30)",
                 }}
               >
-                <Microscope size={17} style={{ color: "#C9A96E" }} />
+                <img src={logo} alt="" />
               </div>
               <div className="leading-none">
                 <p

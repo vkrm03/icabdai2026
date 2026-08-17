@@ -3,7 +3,7 @@ import { MapPin, Mail, Phone, Globe } from "lucide-react";
 export default function Venue() {
   return (
     <section
-      id="contact"
+      id="venue"
       className="relative py-28 px-6 overflow-hidden"
       style={{ background: "#0b1730" }}
     >

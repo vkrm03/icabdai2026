@@ -2,6 +2,7 @@ const rows = [
   { category: "Students (UG & PG)", early: "INR 1,500", late: "INR 2,000" },
   { category: "Research Scholars", early: "INR 2,000", late: "INR 2,500" },
   { category: "Faculty", early: "INR 3,000", late: "INR 3,500" },
+  { category: "Only Participation", early: "INR 1000", late: "—" },
   { category: "Foreign Faculty", early: "USD 600", late: "—" },
   { category: "Foreign Students", early: "USD 200", late: "—" },
 ];
@@ -112,11 +113,6 @@ export default function Registration() {
             >
               Publication Opportunity
             </h3>
-
-            <p className="mb-5 leading-relaxed text-[15px]" style={{color:"#A89880"}}>
-              Submit your abstract on or before <strong style={{color:"#F4EEE4"}}>30 July 2026</strong>.
-              Accepted authors will receive notification and instructions for full paper submission.
-            </p>
 
             <p
   className="mb-6 leading-relaxed text-[15px]"
