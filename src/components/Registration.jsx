@@ -15,7 +15,7 @@ export default function Registration() {
   return (
     <section
       id="registration"
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-18 px-6 overflow-hidden"
       style={{ background: "#060d22" }}
     >
       <div className="relative mx-auto max-w-7xl">

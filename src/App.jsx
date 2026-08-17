@@ -7,6 +7,7 @@ import Speakers from './components/Speakers';
 import Committee from './components/Committee';
 import Registration from './components/Registration';
 import Venue from './components/Venue';
+import Publications from "./components/Publications";
 import Sponsors from './components/Sponser';
 import Footer from './components/Footer';
 import Themes from './components/Themes';
@@ -23,6 +24,7 @@ export default function App() {
       <Sponsors />
       <Committee />
       <Registration />
+      <Publications />
       <Venue />
       <Footer />
     </>
