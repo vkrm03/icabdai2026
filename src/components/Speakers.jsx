@@ -2,8 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Briefcase, Globe2, Users } from "lucide-react";
 import imgsundreson from "../assets/0.png";
-import imgKazuhiko from "../assets/1.png"; 
-import imgHelen from "../assets/10.png";
+import imgKazuhiko from "../assets/1.png";
 import imgBetty from "../assets/11.jpg";
 import imgDeisy from "../assets/12.jpg";
 import imgJulien from "../assets/13.png"; 
@@ -20,10 +19,14 @@ import imgSudhakar from "../assets/7.png";
 import imgSabitha from "../assets/8.png";
 import imgMasilamani from "../assets/9.png";
 import imgSeppo from "../assets/18.jpg";
+import imgMasuko from "../assets/19.jpeg";
+import imgTohru from "../assets/20.jpeg";
 
 // ─── Data Map ─────────────────────────────────────────────────────────────────
 const SPEAKERS = [
   { name: "Prof. P. Sundaresan",        role: "ICMR Emeritus Scientist",                 institution: "Aravind Medical Research Foundation",    location: "Madurai, India",        flag: "🇮🇳", image: imgsundreson, isKeynote: true },
+    {name: "Prof. Tohru Fukai", role: "Barbara A. Schnuck Endowed Chair in Translational Medicine", institution: "Augusta University", location: "Augusta, USA",flag: "🇺🇸",image: imgTohru},
+  {name: "Prof. Masuko Ushio-Fukai",role: "George G. Weiss Research Professorship",institution: "Augusta University",location: "Augusta, USA",flag: "🇺🇸",image: imgMasuko},
   { name: "Dr. Kazuhiko Namikawa",      role: "Cell & Neurobiology Researcher",             institution: "Technische Universität Braunschweig",    location: "Germany",               flag: "🇩🇪", image: imgKazuhiko},
   { name: "Dr. Betty Gimenez",            role: "Ecology, Palynology & AI",                  institution: "French Institute of Pondicherry",        location: "Pondicherry, India",    flag: "🇫🇷", image: imgBetty },
   { name: "Prof. Seppo Vainio",            role: "Developmental Biology Researcher",                  institution: "Oulu University",        location: "Oulu, Finland",    flag: "🇫🇮", image: imgSeppo },
@@ -62,7 +65,9 @@ const BUBBLES = [
   { x: "9%",   y: "86%",  size: 105, delay: 0.6, amp: 6 },
   { x: "29%",  y: "83%",  size: 115, delay: 1.4, amp: 5 },
   { x: "49%",  y: "87%",  size: 100, delay: 0.2, amp: 7 },
-  { x: "69%",  y: "84%",  size: 120, delay: 1.9, amp: 5 },
+  { x: "69%",  y: "84%",  size: 115, delay: 1.9, amp: 5 },
+  { x: "89%", y: "35%", size: 105, delay: 1.0, amp: 6 },
+  { x: "89%", y: "82%", size: 105, delay: 1.6, amp: 5 },
 ];
 
 const RING_PALETTE = [

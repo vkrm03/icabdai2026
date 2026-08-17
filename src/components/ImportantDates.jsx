@@ -7,7 +7,7 @@ import {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const MILESTONES = [
   {
-    date: new Date("2026-08-20"),
+    date: new Date("2026-08-30"),
     display: "20 Aug 2026",
     title: "Abstract Submission",
     subtitle: "Submit your research abstract",
