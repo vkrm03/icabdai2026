@@ -1,10 +1,25 @@
 import { motion } from "framer-motion";
-import { BookOpen } from "lucide-react";
+import { BookOpen, Trophy, Award } from "lucide-react";
 
 import publication1 from "../assets/publications/1.jpeg";
 import publication2 from "../assets/publications/2.jpeg";
 
 const publications = [publication1, publication2];
+
+const awards = [
+  {
+    icon: Trophy,
+    title: "Best Oral Presentation Award",
+    description:
+      "Recognizing outstanding research and excellence in oral presentation.",
+  },
+  {
+    icon: Award,
+    title: "Best Poster Presentation Award",
+    description:
+      "Honoring exceptional research presented through an outstanding scientific poster.",
+  },
+];
 
 export default function Publications() {
   return (
@@ -20,6 +35,7 @@ export default function Publications() {
 
       <div className="relative mx-auto max-w-7xl px-6">
 
+        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,6 +83,7 @@ export default function Publications() {
           </p>
         </motion.div>
 
+        {/* Publications */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
           {publications.map((image, index) => (
             <motion.div
@@ -97,6 +114,107 @@ export default function Publications() {
             </motion.div>
           ))}
         </div>
+
+        {/* Awards */}
+        <motion.div
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mt-16"
+        >
+          <div className="text-center mb-8">
+            <p
+              className="text-xs tracking-[0.3em] uppercase mb-3"
+              style={{ color: "#C9A96E" }}
+            >
+              Recognition
+            </p>
+
+            <h3
+              className="text-2xl md:text-3xl font-semibold"
+              style={{
+                color: "#F4EEE4",
+                fontFamily: "'Cormorant Garamond', serif",
+              }}
+            >
+              Presentation Awards
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {awards.map((award, index) => {
+              const Icon = award.icon;
+
+              return (
+                <motion.div
+                  key={award.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 0.5,
+                    delay: index * 0.15,
+                  }}
+                  className="group relative rounded-2xl border p-6 md:p-7 transition-all duration-300 hover:-translate-y-1"
+                  style={{
+                    background:
+                      "linear-gradient(145deg, rgba(15,32,64,0.75), rgba(9,24,41,0.9))",
+                    borderColor: "rgba(201,169,110,0.20)",
+                    boxShadow: "0 10px 35px rgba(0,0,0,0.20)",
+                  }}
+                >
+                  <div className="flex items-start gap-5">
+
+                    <div
+                      className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center border"
+                      style={{
+                        background: "rgba(201,169,110,0.08)",
+                        borderColor: "rgba(201,169,110,0.25)",
+                      }}
+                    >
+                      <Icon
+                        size={23}
+                        style={{ color: "#C9A96E" }}
+                      />
+                    </div>
+
+                    <div>
+                      <h4
+                        className="text-lg md:text-xl font-semibold"
+                        style={{
+                          color: "#F4EEE4",
+                          fontFamily: "'Cormorant Garamond', serif",
+                        }}
+                      >
+                        {award.title}
+                      </h4>
+
+                      <p
+                        className="mt-2 text-sm leading-relaxed"
+                        style={{
+                          color: "#A89880",
+                          fontFamily: "'Inter', sans-serif",
+                        }}
+                      >
+                        {award.description}
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div
+                    className="absolute bottom-0 left-6 right-6 h-px opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    style={{
+                      background:
+                        "linear-gradient(90deg, transparent, #C9A96E, transparent)",
+                    }}
+                  />
+                </motion.div>
+              );
+            })}
+          </div>
+        </motion.div>
 
       </div>
     </section>
