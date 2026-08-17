@@ -53,7 +53,6 @@ const organizingCommittee = [
   { name: "Mr. Kavin K, IV Year, IT", photo: "" },
   { name: "Mr. Kishore C, IV Year, IT", photo: "" },
   { name: "Ms. Jaishree K, IV Year, IT", photo: "" },
-  { name: "Ms. Nuha Zahra Fathima, IV Year, IT", photo: "" },
   { name: "Ms. Sree Harshini G, IV Year, IT", photo: "" },
 ];
 
