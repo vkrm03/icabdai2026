@@ -5,11 +5,9 @@ import imgMariazeena from "../assets/Dr MARIAZEENA JOHNSON_img.jpg";
 import imgSheelaRani from "../assets/Dr. B Sheela Rani_img.jpeg";
 import imgGeetha from "../assets/Geetha_mam_img.png";
 import imgJackson from "../assets/Jackson_Durairaj_img.jpg";
+import imgSenthilkumar from "../assets/senthilkumar_irc.jpg";
+import imgRajasekar from "../assets/rajasekar.png";
 import imgBeryl from "../assets/Beryl-Vedha.jpg";
-import imgNandagopal from "../assets/Nandha.jpg";
-import imgJoyitaHazra from "../assets/JoyitaHazra.jpg";
-import imgSaravanankumar from "../assets/Saravanakumar.jpg";
-import imgJenifLeo from "../assets/Jenif-leo.jpg";
 import imgJohnsonRetnaraj from "../assets/johnson-retnaraj-samuel_img.jpg"; 
 import imgKamachi from "../assets/kamachi_mam_img.jpg";
 import imgLakshmanan from "../assets/L.LAKSHMANAN_img.jpg";
@@ -38,6 +36,9 @@ const conveners = [
   { name: "Dr. S. Jackson Durairaj, Associate Professor, CMNS", photo: imgJackson },
   { name: "Dr. A. Madan Kumar, Associate Professor, CMNS", photo: imgMadankumar },
   { name: "Dr. Y. Beryl Vedha, Assistant Professor, CMNS", photo: imgBeryl },
+  { name: "Dr. C. Senthil Kumar, Associate Professor, CMNS", photo: imgSenthilkumar },
+  { name: "Dr. M. Rajasekar, Assistant Professor, CMNS", photo: imgRajasekar },
+  
 ];
 
 const organizingCommittee = [
