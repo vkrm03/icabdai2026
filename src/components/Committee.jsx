@@ -42,9 +42,6 @@ const conveners = [
 ];
 
 const organizingCommittee = [
-  { name: "Mr. Jenif Leo, Scientific Assistant", photo: "" },
-  { name: "Mr. Mohamed Juvad, IRF", photo: "" },
-  { name: "Ms. V. Reethu, IRF", photo: "" },
   { name: "Mr. Vivek S, IV Year, IT", photo: "" },
   { name: "Mr. Vikram A, IV Year, IT", photo: "" },
   { name: "Mr. Srivatsan T, IV Year, IT", photo: "" },
@@ -55,6 +52,9 @@ const organizingCommittee = [
   { name: "Mr. Kishore C, IV Year, IT", photo: "" },
   { name: "Ms. Jaishree K, IV Year, IT", photo: "" },
   { name: "Ms. Sree Harshini G, IV Year, IT", photo: "" },
+  { name: "Mr. Jenif Leo, Scientific Assistant", photo: "" },
+  { name: "Mr. Mohamed Juvad, IRF", photo: "" },
+  { name: "Ms. V. Reethu, IRF", photo: "" },
 ];
 
 function getInitials(name) {
