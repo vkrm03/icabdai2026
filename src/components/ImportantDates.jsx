@@ -7,12 +7,13 @@ import {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const MILESTONES = [
   {
-    date: new Date("2026-08-30"),
-    display: "30 Aug 2026",
-    title: "Abstract Submission",
-    subtitle: "Submit your research abstract",
-    icon: FileText,
-  },
+  date: new Date("2026-09-10"),
+  display: "10 Sep 2026",
+  oldDisplay: "30 Aug 2026",
+  title: "Abstract Submission",
+  subtitle: "Submit your research abstract",
+  icon: FileText,
+},
   {
     date: new Date("2026-09-15"),
     display: "15 Sep 2026",
@@ -148,12 +149,20 @@ function MilestoneCard({ m }) {
         </div>
 
         {/* Date */}
-        <p
-          className="text-[11px] font-bold tracking-widest uppercase mb-2 whitespace-nowrap"
-          style={{ color: cfg.labelTxt, fontFamily: "'DM Mono', monospace" }}
-        >
-          {m.display}
-        </p>
+        {/* Date */}
+<p
+  className="text-[11px] font-bold tracking-widest uppercase mb-2 whitespace-nowrap"
+  style={{ color: cfg.labelTxt, fontFamily: "'DM Mono', monospace" }}
+>
+  {m.oldDisplay && (
+    <span className="line-through mr-2">
+      {m.oldDisplay}
+    </span>
+  )}
+  <span>
+    {m.display}
+  </span>
+</p>
 
         {/* Title */}
         <h3

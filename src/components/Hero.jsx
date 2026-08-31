@@ -160,9 +160,18 @@ export default function Hero() {
               value: "Chennai, Tamil Nadu, India",
             },
             {
-              label: "Abstract Deadline",
-              value: "30 August 2026",
-            },
+  label: "Abstract Deadline",
+  value: (
+    <>
+      <span className="line-through mr-2" style={{ color: "#6B7280" }}>
+        30 Aug 2026
+      </span> 
+      <span>
+        10 Sep 2026
+      </span>
+    </>
+  ),
+},
           ].map((item, i) => (
             <div
               key={item.label}
