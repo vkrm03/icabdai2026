@@ -164,10 +164,10 @@ export default function Hero() {
   value: (
     <>
       <span className="line-through mr-2" style={{ color: "#6B7280" }}>
-        30 Aug 2026
+        10 <Script:src></Script:src>ep 2026
       </span> 
       <span>
-        10 Sep 2026
+        25 Sep 2026
       </span>
     </>
   ),
