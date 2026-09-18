@@ -54,10 +54,8 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="relative z-10 mx-auto w-full max-w-6xl text-center">
-
         {/* Institute Branding */}
         <div className="mb-8 flex flex-col items-center">
-
           {/* SIST Logo */}
           <div className="mb-5 flex items-center justify-center">
             <img
@@ -160,18 +158,19 @@ export default function Hero() {
               value: "Chennai, Tamil Nadu, India",
             },
             {
-  label: "Abstract Deadline",
-  value: (
-    <>
-      <span className="line-through mr-2" style={{ color: "#6B7280" }}>
-        10 <Script:src></Script:src>ep 2026
-      </span> 
-      <span>
-        25 Sep 2026
-      </span>
-    </>
-  ),
-},
+              label: "Abstract Deadline",
+              value: (
+                <>
+                  <span
+                    className="line-through mr-2"
+                    style={{ color: "#6B7280" }}
+                  >
+                    10 Sep 2026
+                  </span>
+                  <span>25 Sep 2026</span>
+                </>
+              ),
+            },
           ].map((item, i) => (
             <div
               key={item.label}
