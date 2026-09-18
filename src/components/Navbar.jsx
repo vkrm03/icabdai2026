@@ -123,7 +123,7 @@ export default function Navbar() {
               ))}
 
               <a
-                href="#registration"
+                href="https://forms.gle/hFdBShv35U6TasZ3A"
                 className="ml-4 px-5 py-2 rounded-lg text-[13px] font-semibold transition-all duration-200 hover:-translate-y-0.5"
                 style={{
                   background: "linear-gradient(135deg, #C9A96E 0%, #B87D5A 100%)",
@@ -132,7 +132,7 @@ export default function Navbar() {
                   fontFamily: "'Inter', sans-serif",
                 }}
               >
-                Register
+                Register Now
               </a>
             </nav>
 
@@ -194,7 +194,7 @@ export default function Navbar() {
                 </motion.a>
               ))}
               <motion.a
-                href="#registration"
+                href="https://forms.gle/hFdBShv35U6TasZ3A"
                 onClick={() => setMobileOpen(false)}
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
