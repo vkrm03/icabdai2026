@@ -122,18 +122,6 @@ export default function Navbar() {
                 </a>
               ))}
 
-              <a
-                href="https://forms.gle/hFdBShv35U6TasZ3A"
-                className="ml-4 px-5 py-2 rounded-lg text-[13px] font-semibold transition-all duration-200 hover:-translate-y-0.5"
-                style={{
-                  background: "linear-gradient(135deg, #C9A96E 0%, #B87D5A 100%)",
-                  color: "#060d22",
-                  boxShadow: "0 4px 18px rgba(201,169,110,0.30)",
-                  fontFamily: "'Inter', sans-serif",
-                }}
-              >
-                Register Now
-              </a>
             </nav>
 
             {/* ── Hamburger ───────────────────── */}
@@ -193,20 +181,6 @@ export default function Navbar() {
                   {link.label}
                 </motion.a>
               ))}
-              <motion.a
-                href="https://forms.gle/hFdBShv35U6TasZ3A"
-                onClick={() => setMobileOpen(false)}
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: NAV_LINKS.length * 0.045 }}
-                className="mt-3 px-4 py-3 rounded-xl text-sm font-semibold text-center"
-                style={{
-                  background: "linear-gradient(135deg, #C9A96E 0%, #B87D5A 100%)",
-                  color: "#060d22",
-                }}
-              >
-                Register Now
-              </motion.a>
             </nav>
           </motion.div>
         )}

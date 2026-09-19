@@ -146,16 +146,40 @@ export default function Registration() {
 
 
             <a
-              href="https://cmt3.research.microsoft.com/ICABDAI2026/"
-              className="inline-flex w-full items-center justify-center rounded-xl px-6 py-4 font-semibold transition-all duration-300 hover:-translate-y-1"
-              style={{
-                background:"linear-gradient(135deg,#C9A96E,#B87D5A)",
-                color:"#060d22",
-                boxShadow:"0 8px 25px rgba(201,169,110,.25)",
-              }}
-            >
-              Open Abstract Submission Form
-            </a>
+  href="https://cmt3.research.microsoft.com/ICABDAI2026/"
+  className="mb-3 inline-flex w-full items-center justify-center rounded-xl px-6 py-4 font-semibold transition-all duration-300 hover:-translate-y-1"
+  style={{
+    background: "linear-gradient(135deg,#C9A96E,#B87D5A)",
+    color: "#060d22",
+    boxShadow: "0 8px 25px rgba(201,169,110,.25)",
+  }}
+>
+  Submit Your Paper
+</a>
+
+<a
+  href="https://forms.gle/hFdBShv35U6TasZ3A"
+  className="mb-3 inline-flex w-full items-center justify-center rounded-xl px-6 py-4 font-semibold transition-all duration-300 hover:-translate-y-1"
+  style={{
+    background: "linear-gradient(135deg,#C9A96E,#B87D5A)",
+    color: "#060d22",
+    boxShadow: "0 8px 25px rgba(201,169,110,.25)",
+  }}
+>
+  Register as Author
+</a>
+
+<a
+  href="https://forms.gle/5D1LD8EyuyZZiAXn8"
+  className="inline-flex w-full items-center justify-center rounded-xl px-6 py-4 font-semibold transition-all duration-300 hover:-translate-y-1"
+  style={{
+    background: "linear-gradient(135deg,#C9A96E,#B87D5A)",
+    color: "#060d22",
+    boxShadow: "0 8px 25px rgba(201,169,110,.25)",
+  }}
+>
+  Register as Participant
+</a>
           </div>
         </div>
       </div>
