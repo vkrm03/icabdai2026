@@ -2,7 +2,7 @@ const rows = [
   { category: "Students (UG & PG)", early: "INR 1,500", late: "INR 2,000" },
   { category: "Research Scholars", early: "INR 2,000", late: "INR 2,500" },
   { category: "Faculty", early: "INR 3,000", late: "INR 3,500" },
-  { category: "Only Participation", early: "INR 1000", late: "—" },
+  { category: "Only Participation", early: "INR 1500", late: "—" },
   { category: "Foreign Faculty", early: "USD 600", late: "—" },
   { category: "Foreign Students", early: "USD 200", late: "—" },
 ];
