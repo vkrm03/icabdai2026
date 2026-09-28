@@ -7,8 +7,8 @@ import {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const MILESTONES = [
   {
-  date: new Date("2026-09-25"),
-  display: "25 Sep 2026",
+  date: new Date("2026-10-15"),
+  display: "15 Oct 2026",
   oldDisplay: "30 Aug 2026",
   title: "Abstract Submission",
   subtitle: "Submit your research abstract",
@@ -22,8 +22,8 @@ const MILESTONES = [
     icon: Bell,
   },
   {
-    date: new Date("2026-09-25"),
-    display: "25 Sep 2026",
+    date: new Date("2026-10-15"),
+    display: "15 Oct 2026",
     title: "Early Bird Registration",
     subtitle: "Discounted registration window closes",
     icon: Award,

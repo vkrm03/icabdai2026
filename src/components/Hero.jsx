@@ -165,9 +165,9 @@ export default function Hero() {
                     className="line-through mr-2"
                     style={{ color: "#6B7280" }}
                   >
-                    10 Sep 2026
+                    15 Oct 2026
                   </span>
-                  <span>25 Sep 2026</span>
+                  <span>15 Oct 2026</span>
                 </>
               ),
             },

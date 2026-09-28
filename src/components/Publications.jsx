@@ -3,8 +3,10 @@ import { BookOpen, Trophy, Award } from "lucide-react";
 
 import publication1 from "../assets/publications/1.jpeg";
 import publication2 from "../assets/publications/2.jpeg";
+import publication3 from "../assets/publications/3.jpeg";
+import publication4 from "../assets/publications/4.jpeg";
 
-const publications = [publication1, publication2];
+const publications = [publication1, publication2, publication3];
 
 const awards = [
   {
