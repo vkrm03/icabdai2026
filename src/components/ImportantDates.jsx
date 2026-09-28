@@ -15,8 +15,8 @@ const MILESTONES = [
   icon: FileText,
 },
   {
-    date: new Date("2026-09-26"),
-    display: "26 Sep 2026",
+    date: new Date("2026-10-26"),
+    display: "15 Oct 2026",
     title: "Acceptance Notification",
     subtitle: "Authors notified of review decisions",
     icon: Bell,

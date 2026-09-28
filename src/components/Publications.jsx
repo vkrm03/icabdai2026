@@ -6,7 +6,7 @@ import publication2 from "../assets/publications/2.jpeg";
 import publication3 from "../assets/publications/3.jpeg";
 import publication4 from "../assets/publications/4.jpeg";
 
-const publications = [publication1, publication2, publication3];
+const publications = [publication1, publication2, publication3, publication4];
 
 const awards = [
   {
