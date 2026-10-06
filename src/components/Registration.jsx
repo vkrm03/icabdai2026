@@ -144,6 +144,14 @@ export default function Registration() {
   respective journals.
 </p>
 
+<p
+  className="mt-6 mb-8 text-sm leading-relaxed"
+  style={{ color: "#A89880" }}
+>
+  <br />All the accepted and presented popers will be pubilshed as Scopus-indexed conference book proceedings. Assigned ISBN and DOI (as per publisher norms)
+</p>
+
+
 
             <a
   href="https://cmt3.research.microsoft.com/ICABDAI2026/"
