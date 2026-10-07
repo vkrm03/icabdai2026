@@ -6,9 +6,8 @@ import publication2 from "../assets/publications/2.jpeg";
 import publication3 from "../assets/publications/3.jpeg";
 import publication4 from "../assets/publications/4.jpeg";
 import publication5 from "../assets/publications/5.jpeg";
-import publication6 from "../assets/publications/6.jpeg";
 
-const publications = [publication1, publication2, publication3, publication4, publication5, publication6];
+const publications = [publication1, publication2, publication3, publication4, publication5];
 
 const awards = [
   {
