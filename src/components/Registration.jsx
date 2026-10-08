@@ -69,8 +69,8 @@ export default function Registration() {
               <thead>
                 <tr style={{ background: "rgba(201,169,110,0.12)" }}>
                   <th className="px-8 py-6 text-left text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>Category</th>
-                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>Before 15 Sep 2026</th>
-                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>After 15 Sep 2026</th>
+                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>Before 26 Oct 2026</th>
+                  <th className="px-8 py-6 text-center text-xs font-bold uppercase tracking-wider" style={{ color:"#C9A96E" }}>After 26 Oct 2026</th>
                 </tr>
               </thead>
               <tbody>
