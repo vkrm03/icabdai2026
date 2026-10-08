@@ -167,7 +167,7 @@ export default function Hero() {
                   >
                     15 Oct 2026
                   </span>
-                  <span>15 Oct 2026</span>
+                  <span>26 Oct 2026</span>
                 </>
               ),
             },
