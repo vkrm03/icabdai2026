@@ -138,9 +138,31 @@ export default function Hero() {
           Sciences, IRC
         </p>
 
+        {/* Conference Mode */}
+        <div className="mt-7 flex flex-col items-center justify-center gap-1.5">
+          <p
+            className="text-center text-base font-bold tracking-[0.14em] uppercase sm:text-lg"
+            style={{
+              color: "#C9A96E",
+              fontFamily: "'Inter', sans-serif",
+            }}
+          >
+            Hybrid Mode of Conference
+          </p>
+          <p
+            className="text-center text-xs font-medium tracking-wide sm:text-sm"
+            style={{
+              color: "#F0DFB8",
+              fontFamily: "'Inter', sans-serif",
+            }}
+          >
+            (Virtual and In-Person Presentations)
+          </p>
+        </div>
+
         {/* Information Bar */}
         <div
-          className="mx-auto mt-12 grid max-w-5xl grid-cols-1 overflow-hidden rounded-2xl border sm:grid-cols-3"
+          className="mx-auto mt-10 grid max-w-5xl grid-cols-1 overflow-hidden rounded-2xl border sm:grid-cols-3"
           style={{
             background: "rgba(15,32,64,0.52)",
             backdropFilter: "blur(14px)",
