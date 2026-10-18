@@ -7,7 +7,13 @@ import publication3 from "../assets/publications/3.jpeg";
 import publication4 from "../assets/publications/4.jpeg";
 import publication5 from "../assets/publications/5.jpeg";
 
-const publications = [publication1, publication2, publication3, publication4, publication5];
+const publications = [
+  { image: publication1, impactFactor: "I.F : 0.7" },
+  { image: publication2, impactFactor: null },
+  { image: publication3, impactFactor: null },
+  { image: publication4, impactFactor: "I.F : 1.3" },
+  { image: publication5, impactFactor: null },
+];
 
 const awards = [
   {
@@ -88,7 +94,7 @@ export default function Publications() {
 
         {/* Publications */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-          {publications.map((image, index) => (
+          {publications.map((item, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 35 }}
@@ -109,11 +115,23 @@ export default function Publications() {
                 }}
               >
                 <img
-                  src={image}
+                  src={item.image}
                   alt={`ICABDAI 2026 Publication ${index + 1}`}
                   className="w-full h-full object-contain"
                 />
               </div>
+
+              {item.impactFactor && (
+                <p
+                  className="mt-3 text-center text-sm font-semibold tracking-wide"
+                  style={{
+                    color: "#C9A96E",
+                    fontFamily: "'Inter', sans-serif",
+                  }}
+                >
+                  {item.impactFactor}
+                </p>
+              )}
             </motion.div>
           ))}
         </div>
